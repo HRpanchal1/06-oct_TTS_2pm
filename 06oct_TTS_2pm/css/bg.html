@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 800px;
+            margin: 10px 0;
+        }
+        .background-color{
+            border: dashed 20px rosybrown;
+            background-color: rgb(0, 7, 1);
+        }
+        .bg{
+            background-color: chartreuse;
+        }
+        .background-img{
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+        }
+        .background-attachment{
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+            background-attachment: fixed;
+        }
+        .background-repeat{
+            height: 1000px;
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+            background-repeat: no-repeat;
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+        }
+        .background-position{
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+            background-repeat: no-repeat;
+            /* background-position: 100px;
+            background-position: left;
+            background-position: center;
+            background-position: right; */
+        }
+        .background-size{
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-size: contain; */
+            /* background-position: center; */
+        }
+        .background-clip{
+            border: dashed 20px rosybrown;
+            background-image: url(./img/download.jpg);
+            background-clip: content-box;
+            padding: 20px;
+        }
+        .background{
+            background: url(./img/download.jpg);
+        }
+        .background-flag{
+            background: linear-gradient(270deg ,orange, white , green);
+        }
+        section{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <ul>
+            <li>background-color</li>
+            <li>background-img</li>
+            <li> background-attachment</li>
+            <li>background-clip</li>
+            <li>background-position</li>
+            <li>background-repeat</li>
+            <li>background-size</li>
+            <li>background</li>
+            <li>background-flag</li>
+        </ul>
+    </div>
+
+    <div class="background-color">
+    </div>
+    <div class="background-img"></div>
+    <div class="background-attachment"></div>
+    <div class="background-repeat"></div>
+    <div class="background-position"></div>
+    <div class="background-size"></div>
+    <div class="background-clip">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum adipisci nisi sit. Distinctio labore deserunt soluta corporis repudiandae quia enim quis cumque recusandae modi, ducimus natus accusamus ad mollitia molestiae!</p>
+    </div>
+    <div class="background"></div>
+    <div class="background-flag"></div>
+
+    <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque laboriosam recusandae libero, corrupti vitae hic velit ipsam laudantium ducimus blanditiis, rem molestias, ex praesentium? Quaerat ullam quam numquam odio eum.
+        lorem5000
+
+    </section>
+</body>
+</html>
